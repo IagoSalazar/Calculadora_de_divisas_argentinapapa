@@ -48,15 +48,15 @@ header {
     flex-direction: row;
     
 }
-.options #dolar{
+.options #dolar_container{
     flex-direction: row-reverse;
 }
- #dolar div{
+ #dolar_container div{
     display: block;
     flex-direction: column;
     justify-content: center;
  }
- #euro div{
+ #euro_container div{
     display: block;
     flex-direction: column;
     justify-content: center;
