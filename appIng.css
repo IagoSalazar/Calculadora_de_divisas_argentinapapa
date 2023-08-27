@@ -42,11 +42,7 @@ header {
 .options #dolar{
     flex-direction: row-reverse;
 }
-.dolar_container div{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
- }
+
 .euro_container{
     display: flex;
     padding: 20px;
@@ -81,6 +77,66 @@ header {
     align-items: center;
     gap: 8px;
 }
+
+.dolar_container {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background-color: #5d83b9;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.dolar-title_container {
+    display: flex;
+    box-shadow: 3px 3px 5px black;
+    text-align: center;
+    background-color: #a3cef1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dolar_article{
+    background-color: #a3cef1;
+    box-shadow: 3px 3px 5px black
+}
+.dolar_img {
+    margin: 5px;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.dolar_p {
+    text-align: center;
+    padding: 10px;
+}
+
+.table_section{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background-color: #5d83b9;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px;
+}
+.table-title_container{
+    color: white;
+}
+.table_conversions{
+    border: 5px #a3cef1 solid;
+    border-radius: 5%;
+    background-color: black;
+}
+.table_head{
+    background-color: gray;
+}
+.table_body{
+    background-color: white;
+    border: 2px black solid;
+}
+
 
 
 

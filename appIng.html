@@ -37,19 +37,24 @@
                 <h2 class="dolar_title">Dolar Blue</h2>
                 <img class="dolar_img" src="Dolar.jpg" alt="" id="dolarImg">
             </div>
-            <article>
+            <article class="dolar_article">
                 <p class="dolar_p">Los argentinos usan "el blue" como principal referencia del dólar, ya que es el que sigue la lógica de la oferta y demanda. Cuando uno compra o vende una casa, un auto, o algo de mucho valor, como una computadora o celular, se utiliza esta cotización.</p>
-                <label class="" for="dolar">Ingrese valor del dolar:</label><input id="dolar_input" type="number"><br>
-                <label class="" for="peso2">Ingrese cantidad de pesos:</label><input id="peso2" type="number"><br>
-                <button class="" onclick="calDolar()">Calcular</button>
+                <div class="input_container">
+                        <label class="" for="dolar">Ingrese valor del dolar:</label><input id="dolar_input" type="number"><br>
+                        <label class="" for="peso2">Ingrese cantidad de pesos:</label><input id="peso2" type="number"><br>
+                        <button class="" onclick="calDolar()">Calcular</button>
+                </div>
                 <p class="" id="result2"></p>
             </article>
         </section>
     </section>
-    <h3>Conversiones mas comunes:</h3>
-    <section class="table_conversions">
-        <table border="1"> 
-            <tr align="center" style="background-color: gray;">
+    <section class="table_section"> 
+        <div class="table-title_container">
+            <h3>Conversiones mas comunes:</h3>
+        </div>
+        <div class="table_of_conversions">
+            <table class="table_conversions"> 
+            <tr  class="table_head">
                 <th>Cantidad</th>
                 <th>1</th>
                 <th>10</th>
@@ -58,7 +63,7 @@
                 <th>100</th>
                 <th>100</th>
             </tr>
-            <tr align="center" style="background-color:white;">
+            <tr class="table_body">
                 <th>Dolar a Peso</th>
                 <th></th>
                 <th></th>
@@ -67,7 +72,7 @@
                 <th></th>
                 <th></th>
             </tr>
-            <tr align="center"style="background-color:white;">
+            <tr class="table_body">
                 <th>Euro a Peso</th>
                 <th></th>
                 <th></th>
@@ -76,7 +81,8 @@
                 <th></th>
                 <th></th>
             </tr>
-        </table> 
+            </table>
+        </div>
     </section>
 </main>
 <footer>
